@@ -1,6 +1,6 @@
-package com.example.recipeproject.ingredients;
+package com.example.recipeproject.model;
 
-public class Ingredient {
+public class Ingredient extends BaseEntity{
     private Long id;
     private String name;
     private String country_of_origin;

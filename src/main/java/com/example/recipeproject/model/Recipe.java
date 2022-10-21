@@ -1,10 +1,10 @@
-package com.example.recipeproject.recipes;
+package com.example.recipeproject.model;
 
-import com.example.recipeproject.ingredients.Ingredient;
+import com.example.recipeproject.model.Ingredient;
 
 import java.util.List;
 
-public class Recipe {
+public class Recipe extends BaseEntity{
 
     private Long id;
     private final List<Ingredient> ingredients;

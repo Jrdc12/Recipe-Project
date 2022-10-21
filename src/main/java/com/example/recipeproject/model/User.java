@@ -1,6 +1,6 @@
-package com.example.recipeproject.users;
+package com.example.recipeproject.model;
 
-public class User {
+public class User extends BaseEntity{
     private Long id;
     private String user_name;
     private String first_name;
